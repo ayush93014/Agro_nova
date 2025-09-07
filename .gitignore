@@ -1,0 +1,6 @@
+﻿# dependencies
+node_modules/
+.git/
+dist/
+.dist/
+
