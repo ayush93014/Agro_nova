@@ -1,0 +1,310 @@
+/* Soil Info Section Styles */
+.info-section {
+	margin-top: 40px;
+	padding: 24px 0;
+	background: rgba(255,255,255,0.7);
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+	text-align: center;
+}
+.info-heading {
+	color: #145A32;
+	font-size: 2rem;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+.soil-types {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+}
+.soil-card {
+	background: #eafaf1;
+	border: 2px solid #145A32;
+	border-radius: 10px;
+	padding: 18px 24px;
+	width: 220px;
+	box-shadow: 0 1px 6px rgba(20,90,50,0.08);
+	text-align: left;
+}
+.soil-card h3 {
+	color: #256029;
+	margin-bottom: 8px;
+	font-size: 1.2rem;
+}
+.soil-card p {
+	color: #333;
+	font-size: 1rem;
+	margin: 0;
+}
+/* Step 1 heading style */
+.step-heading {
+	color: #145A32; /* dark green */
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+body {
+	background: url('images/WhatsApp Image 2025-09-06 at 21.40.48_c6542285.jpg') no-repeat center center fixed;
+	background-size: cover;
+	/* Removed background image for a clean look */
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+}
+.crop-svg-row {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 32px;
+	margin-top: 18px;
+	margin-bottom: -18px;
+	z-index: 10;
+}
+#app {
+	max-width: 900px;
+	margin: 30px auto;
+	background: transparent;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+	overflow: hidden;
+}
+header {
+	background: #fff;
+	color: #256029;
+	padding: 20px 30px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	position: relative;
+	overflow: hidden;
+}
+.logo-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	gap: 0;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	display: flex;
+	gap: 24px;
+	border-bottom: 2px solid #388e3c;
+}
+nav a {
+	color: #256029;
+	text-decoration: none;
+	font-weight: 500;
+	background: #e8f5e9;
+	padding: 12px 32px 10px 32px;
+	border: 1px solid #388e3c;
+	border-bottom: none;
+	border-radius: 12px 12px 0 0;
+	margin-right: 0;
+	position: relative;
+	top: 2px;
+	transition: background 0.2s, color 0.2s;
+	text-align: center;
+}
+nav a:hover {
+	background: #c8e6c9;
+	color: #388e3c;
+	text-decoration: none;
+}
+nav a.active {
+	background: #fff;
+	color: #388e3c;
+	font-weight: 700;
+	box-shadow: 0 2px 8px rgba(56,142,60,0.08);
+	z-index: 2;
+}
+.step {
+	display: none;
+}
+.step.active {
+	display: block;
+	animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+input[type="tel"] {
+	font-size: 4.5rem;
+	padding: 18px 28px;
+	width: 400px;
+	font-size: 2rem;
+	margin-right: 24px;
+	color: #145A32; /* dark green */
+	border: 3px solid #145A32;
+	font-weight: bold;
+	background: #eafaf1;
+}
+#loginForm button {
+	font-size: 1.7rem;
+	padding: 18px 38px;
+	color: #fff;
+	font-size: 2rem;
+	padding: 18px 28px;
+	width: 400px;
+	transition: background 0.2s;
+}
+#loginForm button:hover {
+	background: #117A43;
+	border-color: #117A43;
+}
+#loginForm label {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-right: 18px;
+	color: #145A32; /* dark green */
+}
+#login.step, #login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 300px;
+}
+#loginForm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+	margin-top: 24px;
+}
+#login h2 {
+	text-align: center;
+	width: 100%;
+}
+/* Soil Info Page Styles */
+.soil-info-page {
+    margin: 40px auto;
+    padding: 32px 0;
+    background: rgba(255,255,255,0.7);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(44,62,80,0.10);
+    max-width: 900px;
+    text-align: center;
+}
+.soil-page-heading {
+    color: #145A32;
+    font-size: 2.5rem;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.soil-page-desc {
+    color: #256029;
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+.soil-page-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+.soil-page-card {
+    background: #eafaf1;
+    border: 2px solid #145A32;
+    border-radius: 12px;
+    padding: 22px 28px;
+    width: 240px;
+    box-shadow: 0 1px 8px rgba(20,90,50,0.10);
+    text-align: left;
+}
+.soil-page-card h3 {
+    color: #256029;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.soil-page-card p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.soil-page-card ul {
+    padding-left: 18px;
+    margin: 0;
+    color: #145A32;
+    font-size: 0.98rem;
+}
+.soil-page-card li {
+    margin-bottom: 4px;
+}
+/* Login Page Redesign Styles */
+.login-logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.login-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+.login-heading {
+    color: #145A32;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 0;
+}
+#loginForm label {
+    font-size: 1.2rem;
+    color: #145A32;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#loginForm input[type="tel"] {
+    width: 260px;
+    font-size: 1.1rem;
+    padding: 10px 16px;
+    border: 2px solid #145A32;
+    border-radius: 8px;
+    background: #eafaf1;
+    color: #145A32;
+    margin-bottom: 8px;
+}
+#loginForm button {
+    font-size: 1.2rem;
+    padding: 12px 32px;
+    color: #fff;
+    background: #145A32;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#loginForm button:hover {
+    background: #117A43;
+}
+header {
+  background: none !important;  /* remove any background color or image */
+  box-shadow: none !important;  /* optional – also remove drop-shadow if any */
+  border: none;                 /* optional – remove any border */
+}
